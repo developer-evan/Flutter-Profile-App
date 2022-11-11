@@ -216,7 +216,7 @@ Widget build(BuildContext context) {
 		child: Text(
 		"Software Engineer",
 		style: TextStyle(
-			color: Colors.green[900],
+			color: Colors.blue[900],
 			fontSize: 40,
 			fontWeight: FontWeight.w500,
 		),
