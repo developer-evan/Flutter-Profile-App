@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const Profile());
+}
+
+class Profile extends StatelessWidget {
+  const Profile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title:'Profile',
+      // theme: ThemeData(
+      // primarySwatch: Colors.blue,
+      // scaffoldBackgroundColor: Colors.tealAccent,
+      home: Scaffold(
+        backgroundColor: Colors.lightBlueAccent,
+        appBar: AppBar(
+          title: const Text('Ivan Hunter',
+          style: TextStyle(color: Colors.white),
+          ),
+                 backgroundColor: Colors.teal,
+                 
+                 elevation: 0,
+                  ),
+                  body: const Center(
+                    
+                //  backgroundColor: Colors.lightBlueAccent,
+                    child: Text('Fullstack_Engineer || Software Engineer.',
+                    // style(
+                    //   backgroundColor:Colors.black,
+                    //   ), 
+                    style:TextStyle(color:Colors.white),
+                    
+                    ),
+                    
+                    
+                  ),
+      ),
+    );
+  }
+}
